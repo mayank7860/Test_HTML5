@@ -1,0 +1,18 @@
+git init
+git commit -m "Test"
+
+git config --global  user.email ""
+git config --global user.username
+
+===========================================
+add repo
+
+
+git add remote "*.git"
+===========================================
+
+push and pull
+
+git push  -f origin master
+
+git pull  origin 
