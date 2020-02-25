@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+				HTML 5  - FORM
+        </title>
+    </head>
+    <body>	
+		<h3> ADD A NEW ADDRESS</h3>
+		<hr/>
+		<ul>
+			  <li>Use my current location</li>
+			</ul>  
+		<form action="/send.php" method="">
+			<label></label><br/>
+				<input type="text" value="Name"required/><br/>
+			<label></label><br/>
+				<input type="text" value="10-digit Mobile Number"required/><br/>
+			<label></label><br/>
+				<input type="text" value="Pin Code"required/><br/>
+			<label></label><br/>
+				<input type="text" value="Locality"required/><br/><br/>
+			<label></label>
+					<textarea rows="5" cols="50">Address(Area and Street)</textarea><br/><br/>
+			<label></label>
+				  <input type="text" value="City/District/Town"required/><br/><br/>
+			<label>State<label>
+				  <select id="State">
+				  <option value="U.P">U.P</option>
+				  <option value="Delhi">Delhi</option>
+				  <option value="MP">MP</option>
+				  <option value="MP">CG</option>
+				</select><br/><br/>
+				<label></label>
+					<input type="text" value="Landmark(optional)"required></input><br/><br/>
+				<label></label>
+					<input type="text" value="Alternate Phone(optional)"required></input><br/><br/>
+				<label>Address Type</label><br/>
+					<input type="radio" id="Home" name="Home" value="Home">
+				<label for="Home">Home</label>
+					<input type="radio" id="Work" name="Work" value="Work">
+				<label for="Work">Work</label><br/><br/>
+				<input type="button" value="SAVE">
+				<input type="button" value="CANCEL">
+		
+		</form>
+
+    </body>
+</html>
